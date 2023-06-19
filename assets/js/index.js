@@ -2,9 +2,7 @@
 window.onscroll = function () {
     scrollFunction();
   };
-  
   var first = true;
-  
   function scrollFunction() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       document.getElementById("navbar").classList.add('fixed-navbar');
@@ -96,10 +94,10 @@ var swiper2 = new Swiper(".testimonalSlider", {
   //   nextEl: ".swiper-button-next",
   //   prevEl: ".swiper-button-prev",
   // },
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     0: {
       slidesPerView: 1,
