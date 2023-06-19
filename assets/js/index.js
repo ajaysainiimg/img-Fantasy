@@ -80,7 +80,7 @@ window.onscroll = function () {
 var swiper = new Swiper(".heroSlider", {
   spaceBetween: 0,
   autoplay: {
-    delay: 2500,
+    delay: 4000,
     disableOnInteraction: false,
   },
   pagination: {

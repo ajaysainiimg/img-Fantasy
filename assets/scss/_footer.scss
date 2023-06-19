@@ -22,7 +22,7 @@
         }
     }
     & .subscibe-title {
-        font-size: 18px;
+        font-size: 14px;
         color: $white;
     }
     // & .footer-title {
@@ -75,16 +75,14 @@
     }
     & .social-media {
         & .social-link {
-            background-color: $theme1;
-            height: 45px;
-            width: 45px;
-            padding: 12px;
+            height:20px;
+            width: 20px;
             transition: all 0.3s ease-in-out;
             & .social-img {
                 transition: all 0.3s ease-in-out;
             }
             &:hover {
-                border-radius: 50% !important;
+               transform: scale(1.1);
                 & .social-img {
                     filter: invert(1);
                 }
@@ -576,7 +574,7 @@
             }
         }
         & .subscibe-title {
-            font-size: 15px;
+            font-size: 13px;
         }
         & .subscribe-main {
             & .subscibe-input {
@@ -601,8 +599,8 @@
         }
         & .social-media {
             & .social-link {
-                height: 40px;
-                width: 40px;
+                height: 20px;
+                width: 20px;
                 & .social-img {
                 }
                 &:hover {
@@ -645,7 +643,7 @@
             }
         }
         & .subscibe-title {
-            font-size: 14px;
+            font-size: 12px;
         }
         & .subscribe-main {
             & img {
@@ -676,9 +674,8 @@
         }
         & .social-media {
             & .social-link {
-                height: 35px;
-                width: 35px;
-                padding: 8px;
+                height: 16px;
+                width: 16px;
                 & .social-img {
                 }
                 &:hover {
