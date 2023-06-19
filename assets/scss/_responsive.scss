@@ -11,7 +11,7 @@
     @include testimonal-mixin-min-sm();
     @include footer-mixin-min-sm();
     @include heading-mixin-min-sm();
-    // @include followoninsta-mixin-min-sm();
+    @include policy-mixin-min-sm();
     // @include footer-mixin-min-sm();
     // @include termscondition-mixin-min-sm();
     // @include herotwo-mixin-min-sm();
@@ -30,7 +30,7 @@
   @include testimonal-mixin-min-md();
   @include footer-mixin-min-md();
   @include heading-mixin-min-md();
-  // @include followoninsta-mixin-min-md();
+  @include policy-mixin-min-md();
   // @include footer-mixin-min-md();
   // @include termscondition-mixin-min-md();
   // @include herotwo-mixin-min-md();
@@ -49,7 +49,7 @@
   @include testimonal-mixin-min-lg();
   @include footer-mixin-min-lg();
   @include heading-mixin-min-lg();
-  // @include followoninsta-mixin-min-lg();
+  @include policy-mixin-min-lg();
   // @include footer-mixin-min-lg();
   // @include termscondition-mixin-min-lg();
   // @include herotwo-mixin-min-lg();
@@ -68,7 +68,7 @@
   @include testimonal-mixin-min-xl();
   @include footer-mixin-min-xl();
   @include heading-mixin-min-xl();
-//   @include followoninsta-mixin-min-xl();
+  @include policy-mixin-min-xl();
 //   @include footer-mixin-min-xl();
 //   @include termscondition-mixin-min-xl();
 //   @include herotwo-mixin-min-xl();
@@ -87,7 +87,7 @@
   @include testimonal-mixin-min-xxl();
   @include footer-mixin-min-xxl();
   @include heading-mixin-min-xxl();
-//   @include followoninsta-mixin-min-xxl();
+  @include policy-mixin-min-xxl();
 //   @include footer-mixin-min-xxl();
 //   @include termscondition-mixin-min-xxl();
 //   @include herotwo-mixin-min-xxl();
@@ -106,7 +106,7 @@
   @include testimonal-mixin-max-xl();
   @include footer-mixin-max-xl();
   @include heading-mixin-max-xl();
-  // @include followoninsta-mixin-max-xl();
+  @include policy-mixin-max-xl();
   // @include footer-mixin-max-xl();
   // @include termscondition-mixin-max-xl();
   // @include herotwo-mixin-max-xl();
@@ -125,7 +125,7 @@
   @include testimonal-mixin-max-lg();
   @include footer-mixin-max-lg();
   @include heading-mixin-max-lg();
-  // @include followoninsta-mixin-max-lg();
+  @include policy-mixin-max-lg();
   // @include footer-mixin-max-lg();
   // @include termscondition-mixin-max-lg();
   // @include herotwo-mixin-max-lg();
@@ -144,7 +144,7 @@
   @include testimonal-mixin-max-md();
   @include footer-mixin-max-md();
   @include heading-mixin-max-md();
-  // @include followoninsta-mixin-max-md();
+  @include policy-mixin-max-md();
   // @include footer-mixin-max-md();
   // @include termscondition-mixin-max-md();
   // @include herotwo-mixin-max-md();
@@ -163,7 +163,7 @@
   @include testimonal-mixin-max-sm();
   @include footer-mixin-max-sm();
   @include heading-mixin-max-sm();
-  // @include followoninsta-mixin-max-sm();
+  @include policy-mixin-max-sm();
   // @include footer-mixin-max-sm();
   // @include termscondition-mixin-max-sm();
   // @include herotwo-mixin-max-sm();
@@ -182,7 +182,7 @@
   @include testimonal-mixin-max-xs();
   @include footer-mixin-max-xs();
   @include heading-mixin-max-sm();
-  // @include followoninsta-mixin-max-xs();
+  @include policy-mixin-max-xs();
   // @include footer-mixin-max-xs();
   // @include termscondition-mixin-max-xs();
   // @include herotwo-mixin-max-xs();
