@@ -36,7 +36,7 @@ body {
       // }
 }
 .sub-heading {
-  font-size: 28px;
+  font-size: 25px;
   color: $white;
 }
 
@@ -132,11 +132,12 @@ body {
 // X-Small devices (portrait phones, less than 576px)
 @mixin main-mixin-max-xs() {
   .heading {
-      font-size: 24px;
+      font-size: 22px;
+      line-height: 28px;
       &::before {
       }
   }
   .sub-heading {
-      font-size: 17px;
+      font-size: 15px;
   }
 }

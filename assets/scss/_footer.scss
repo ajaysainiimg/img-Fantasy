@@ -105,8 +105,12 @@
         font-size: 13px;
         color: $white;
         & .img {
-            font-size: 13px;
+            font-size: 14px;
             color: $theme1;          
+        }
+        & .copyright-logo {
+            height: 35px;
+            width: auto;
         }
     }
     & .policy-title {
@@ -547,6 +551,10 @@
         & .copyright-title {
             & .img {    
             }
+            & .copyright-logo {
+                height: 30px;
+                width: auto;
+            }
         }
         & .policy-title {
             &:hover {
@@ -614,6 +622,10 @@
             font-size: 12px;
             & .img { 
                 font-size: 12px;   
+            }
+            & .copyright-logo {
+                height: 25px;
+                width: auto;
             }
         }
         & .policy-title {
@@ -691,6 +703,10 @@
             padding-bottom: 8px;
             & .img {    
                 font-size: 11px;
+            }
+            & .copyright-logo {
+                height: 20px;
+                width: auto;
             }
         }
         & .policy-title {

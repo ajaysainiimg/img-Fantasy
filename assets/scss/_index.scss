@@ -638,6 +638,7 @@
             height: 2px;
             width: 20px;
             background-color: $theme1;
+            transition: all 0.3s ease-in-out;
             &::before {
                 content: "";
                 position: absolute;
@@ -649,7 +650,8 @@
                 background: $white;
                 -webkit-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
+                transform: translateY(-60%);
+                transition: all 0.3s ease-in-out;
             }
             &::after {
                     content: "";
@@ -661,7 +663,8 @@
                     background: $white;
                     -webkit-transform: translateY(-50%);
                     -ms-transform: translateY(-50%);
-                    transform: translateY(-50%);
+                    transform: translateY(-60%);
+                    transition: all 0.3s ease-in-out;
             }
         }
         & .playtitle {
@@ -670,6 +673,15 @@
         }
         &:hover {
             transform: translateY(-30px);
+            & .playline {
+                width: 40px !important;
+                &::before {
+                    background: $theme1;
+                }
+                &::after {
+                        background: $theme1;
+                }
+            }
         }
     }
 }
